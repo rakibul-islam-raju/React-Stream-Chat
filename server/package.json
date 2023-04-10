@@ -1,0 +1,22 @@
+{
+	"name": "server",
+	"version": "1.0.0",
+	"main": "server.ts",
+	"author": "Rakibul Islam",
+	"license": "MIT",
+	"dependencies": {
+		"@fastify/cors": "^8.2.1",
+		"dotenv": "^16.0.3",
+		"fastify": "^4.15.0",
+		"stream-chat": "^8.4.1"
+	},
+	"scripts": {
+		"dev": "nodemon server.ts"
+	},
+	"devDependencies": {
+		"@types/node": "^18.15.9",
+		"nodemon": "^2.0.22",
+		"ts-node": "^10.9.1",
+		"typescript": "^5.1.0-dev.20230325"
+	}
+}
